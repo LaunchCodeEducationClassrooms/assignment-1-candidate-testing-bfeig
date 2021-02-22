@@ -23,14 +23,14 @@ candinateName = input.question("Candidate name: ");
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 
-  for (let i=0; i<questions.length; i++) {
-    console.log(`${i + 1}) ${questions[i]}`);
+for(let i=0; i<questions.length; i++) {
+  console.log(`${i + 1}) ${questions[i]}`);
     candidateAnswers[i] = input.question("Your Answer: ");
     console.log(`Correct Answer: ${correctAnswers[i]} \n`);
 
+  }
 }
 
-}
 
 function gradeQuiz(candidateAnswers) {
 
